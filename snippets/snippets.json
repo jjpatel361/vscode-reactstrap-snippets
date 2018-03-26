@@ -1,0 +1,66 @@
+{
+    "alert-primary" : {
+        "prefix" : "alert:p",
+        "body" : [
+            "<Alert color=\"primary\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "alert-secondary" : {
+        "prefix" : "alert:se",
+        "body" : [
+            "<Alert color=\"secondary\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "alert-success" : {
+        "prefix" : "alert:su",
+        "body" : [
+            "<Alert color=\"success\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "alert-danger" : {
+        "prefix" : "alert:dg",
+        "body" : [
+            "<Alert color=\"danger\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "alert-warning" : {
+        "prefix" : "alert:w",
+        "body" : [
+            "<Alert color=\"warning\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "alert-info" : {
+        "prefix" : "alert:i",
+        "body" : [
+            "<Alert color=\"info\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "alert-light" : {
+        "prefix" : "alert:l",
+        "body" : [
+            "<Alert color=\"light\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "alert-dark" : {
+        "prefix" : "alert:dk",
+        "body" : [
+            "<Alert color=\"dark\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    }
+}

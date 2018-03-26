@@ -1,0 +1,21 @@
+{
+    "name": "reactstrap-snippets",
+    "displayName": "reactstrap-snippets",
+    "description": "Code Snippets for using ReactStrap (React Wrapper for Bootstrap 4)",
+    "version": "0.0.1",
+    "publisher": "tba",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
