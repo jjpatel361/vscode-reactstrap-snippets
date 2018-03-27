@@ -126,5 +126,69 @@
             "\t${1}",
             "</Badge>"
         ]
+    },
+    "button-primary" : {
+        "prefix" : "button:p",
+        "body" : [
+            "<Button color=\"primary\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },
+    "button-secondary" : {
+        "prefix" : "button:se",
+        "body" : [
+            "<Button color=\"secondary\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },
+    "button-success" : {
+        "prefix" : "button:su",
+        "body" : [
+            "<Button color=\"success\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },
+    "button-danger" : {
+        "prefix" : "button:dg",
+        "body" : [
+            "<Button color=\"danger\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },
+    "button-warning" : {
+        "prefix" : "button:w",
+        "body" : [
+            "<Button color=\"warning\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },
+    "button-info" : {
+        "prefix" : "button:i",
+        "body" : [
+            "<Button color=\"info\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },
+    "button-light" : {
+        "prefix" : "button:l",
+        "body" : [
+            "<Button color=\"light\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },
+    "button-dark" : {
+        "prefix" : "button:dk",
+        "body" : [
+            "<Button color=\"dark\">",
+            "\t${1}",
+            "</Button>"
+        ]
     }
 }
