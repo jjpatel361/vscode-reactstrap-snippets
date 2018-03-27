@@ -62,5 +62,69 @@
             "\t${1}",
             "</Alert>"
         ]
+    },
+    "badge-primary" : {
+        "prefix" : "badge:p",
+        "body" : [
+            "<Badge color=\"primary\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "badge-secondary" : {
+        "prefix" : "badge:se",
+        "body" : [
+            "<Badge color=\"secondary\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "badge-success" : {
+        "prefix" : "badge:su",
+        "body" : [
+            "<Badge color=\"success\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "badge-danger" : {
+        "prefix" : "badge:dg",
+        "body" : [
+            "<Badge color=\"danger\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "badge-warning" : {
+        "prefix" : "badge:w",
+        "body" : [
+            "<Badge color=\"warning\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "badge-info" : {
+        "prefix" : "badge:i",
+        "body" : [
+            "<Badge color=\"info\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "badge-light" : {
+        "prefix" : "badge:l",
+        "body" : [
+            "<Badge color=\"light\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "badge-dark" : {
+        "prefix" : "badge:dk",
+        "body" : [
+            "<Badge color=\"dark\">",
+            "\t${1}",
+            "</Badge>"
+        ]
     }
 }
