@@ -190,5 +190,31 @@
             "\t${1}",
             "</Button>"
         ]
+    },
+    "breadcrumb": {
+        "prefix" : "breadcrumb",
+        "body" : [
+            "<Breadcrumb>",
+            "\t${1}",
+            "</Breadcrumb>"
+        ]
+    },
+    "breadcrumbitem": {
+        "prefix" : "breadcrumbitem",
+        "body" : [
+            "<BreadcrumbItem>",
+            "\t${1}",
+            "</BreadcrumbItem>"
+        ]
+    }, 
+    "breadcrumbgroup" : {
+        "prefix" : "breadcrumb:item",
+        "body" : [
+            "<Breadcrumb>",
+            "\t<BreadcrumbItem>",
+            "\t\t${1}",
+            "\t</BreadcrumbItem>",
+            "</Breadcrumb>"
+        ]
     }
 }
