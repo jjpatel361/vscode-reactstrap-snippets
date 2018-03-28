@@ -216,5 +216,37 @@
             "\t</BreadcrumbItem>",
             "</Breadcrumb>"
         ]
+    },
+    "btn-dropdown" : {
+        "prefix" : "btndropdown",
+        "body" : [
+            "<ButtonDropdown>",
+            "\t${1}",
+            "</ButtonDropdown>"
+        ]
+    },
+    "dropdown-toggle" : {
+        "prefix" : "dropdown:toggle",
+        "body" : [
+            "<DropdownToggle>",
+            "\t${1}",
+            "</DropdownToggle>"
+        ]
+    },
+    "dropdown-menu" : {
+        "prefix" : "dropdown:menu",
+        "body" : [
+            "<DropdownMenu>",
+            "\t${1}",
+            "</DropdownMenu>"
+        ]
+    },
+    "dropdown-item" : {
+        "prefix" : "dropdown:item",
+        "body" :[
+            "<DropdownItem>",
+            "\t${1}",
+            "</DropdownItem>"
+        ]
     }
 }
