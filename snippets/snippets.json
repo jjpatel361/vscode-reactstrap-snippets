@@ -127,70 +127,70 @@
             "</Badge>"
         ]
     },
-    "button-primary" : {
-        "prefix" : "button:p",
+    "btn-primary" : {
+        "prefix" : "btn:p",
         "body" : [
             "<Button color=\"primary\">",
             "\t${1}",
             "</Button>"
         ]
     },
-    "button-secondary" : {
-        "prefix" : "button:se",
+    "btn-secondary" : {
+        "prefix" : "btn:se",
         "body" : [
             "<Button color=\"secondary\">",
             "\t${1}",
             "</Button>"
         ]
     },
-    "button-success" : {
-        "prefix" : "button:su",
+    "btn-success" : {
+        "prefix" : "btn:su",
         "body" : [
             "<Button color=\"success\">",
             "\t${1}",
             "</Button>"
         ]
     },
-    "button-danger" : {
-        "prefix" : "button:dg",
+    "btn-danger" : {
+        "prefix" : "btn:dg",
         "body" : [
             "<Button color=\"danger\">",
             "\t${1}",
             "</Button>"
         ]
     },
-    "button-warning" : {
-        "prefix" : "button:w",
+    "btn-warning" : {
+        "prefix" : "btn:w",
         "body" : [
             "<Button color=\"warning\">",
             "\t${1}",
             "</Button>"
         ]
     },
-    "button-info" : {
-        "prefix" : "button:i",
+    "btn-info" : {
+        "prefix" : "btn:i",
         "body" : [
             "<Button color=\"info\">",
             "\t${1}",
             "</Button>"
         ]
     },
-    "button-light" : {
-        "prefix" : "button:l",
+    "btn-light" : {
+        "prefix" : "btn:l",
         "body" : [
             "<Button color=\"light\">",
             "\t${1}",
             "</Button>"
         ]
     },
-    "button-dark" : {
-        "prefix" : "button:dk",
+    "btn-dark" : {
+        "prefix" : "btn:dk",
         "body" : [
             "<Button color=\"dark\">",
             "\t${1}",
             "</Button>"
         ]
-    },
+    },    
     "breadcrumb": {
         "prefix" : "breadcrumb",
         "body" : [
