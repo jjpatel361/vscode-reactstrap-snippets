@@ -217,8 +217,8 @@
             "</Breadcrumb>"
         ]
     },
-    "btn-dropdown" : {
-        "prefix" : "btndropdown",
+    "dropdown-button" : {
+        "prefix" : "dropdown:button",
         "body" : [
             "<ButtonDropdown>",
             "\t${1}",
@@ -248,5 +248,135 @@
             "\t${1}",
             "</DropdownItem>"
         ]
+    },
+    "btn:group" : {
+        "prefix" : "btn:group",
+        "body" :[
+            "<ButtonGroup>",
+            "\t${1}",
+            "</ButtonGroup>"
+        ]
+    },
+    "btn:group:button" : {
+        "prefix" : "btn:group:btn",
+        "body" :[
+            "<ButtonGroup>",
+            "\t<Button>${1}</Button>",
+            "</ButtonGroup>"
+        ]
+    },
+    "btn:toolbar" : {
+        "prefix" : "btn:tool",
+        "body" :[
+            "<ButtonToolbar>",
+            "\t${1}",
+            "</ButtonToolbar>"
+        ]
+    },
+    "btn:toolbar:group" : {
+        "prefix" : "btn:toolgroup",
+        "body" :[
+            "<ButtonToolbar>",
+            "\t<ButtonGroup>",
+            "\t\t<Button>${1}</Button>",
+            "\t</ButtonGroup>",
+            "</ButtonToolbar>"
+        ]
+    },
+    "card" : {
+        "prefix" : "card",
+        "body" :[
+            "<Card>",
+            "\t${1}",
+            "</Card>"
+        ]
+    },
+    "card:img" : {
+        "prefix" : "card:img",
+        "body" :[
+            "<CardImg src=\"${1}\" alt=\"${2}\" />"
+        ]
+    },
+    "card:body" : {
+        "prefix" : "card:body",
+        "body" :[
+            "<CardBody>",
+            "\t${1}",
+            "</CardBody>"
+        ]
+    },
+    "card:title" : {
+        "prefix" : "card:title",
+        "body" :[
+            "<CardTitle>",
+            "\t${1}",
+            "</CardTitle>"
+        ]
+    },
+    "card:subtitle" : {
+        "prefix" : "card:subtitle",
+        "body" :[
+            "<CardSubtitle>",
+            "\t${1}",
+            "</CardSubtitle>"
+        ]
+    },
+    "card:text" : {
+        "prefix" : "card:text",
+        "body" :[
+            "<CardText>",
+            "\t${1}",
+            "</CardText>"
+        ]
+    },
+    "card:link" : {
+        "prefix" : "card:link",
+        "body" :[
+            "<CardLink>",
+            "\t${1}",
+            "</CardLink>"
+        ]
+    },
+    "card:header" : {
+        "prefix" : "card:header",
+        "body" :[
+            "<CardHeader>",
+            "\t${1}",
+            "</CardHeader>"
+        ]
+    },
+    "card:footer" : {
+        "prefix" : "card:footer",
+        "body" :[
+            "<CardFooter>",
+            "\t${1}",
+            "</CardFooter>"
+        ]
+    },
+    "card:imgoverlay" : {
+        "prefix" : "card:imgoverlay",
+        "body" :[
+            "<CardImgOverlay>",
+            "\t${1}",
+            "</CardImgOverlay>"
+        ]
+    },
+    "card:group" : {
+        "prefix" : "card:group",
+        "body" :[
+            "<CardGroup>",
+            "\t${1}",
+            "</CardGroup>"
+        ]
+    },
+    "card:deck" : {
+        "prefix" : "card:deck",
+        "body" :[
+            "<CardDeck>",
+            "\t${1}",
+            "</CardDeck>"
+        ]
     }
+    
+    
 }
