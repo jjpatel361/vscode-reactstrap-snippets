@@ -376,7 +376,53 @@
             "\t${1}",
             "</CardDeck>"
         ]
-    }
-    
-    
+    },
+    "collapse" : {
+        "prefix" : "collapse",
+        "body" :[
+            "<Collapse isOpen=\"${1}\">",
+            "\t${2}",
+            "</Collapse>"
+        ]
+    },
+    "carousel" : {
+        "prefix" : "carousel",
+        "body" :[
+            "<Carousel>",
+            "\t${1}",
+            "</Carousel>"
+        ]
+    },
+    "carouselitem" : {
+        "prefix" : "carousel:item",
+        "body" :[
+            "<CarouselItem>",
+            "\t${1}",
+            "</CarouselItem>"
+        ]
+    },
+    "carouselcontrol" : {
+        "prefix" : "carousel:control",
+        "body" :[
+            "<CarouselControl>",
+            "\t${1}",
+            "</CarouselControl>"
+        ]
+    },
+    "carouselindicators" : {
+        "prefix" : "carousel:indicators",
+        "body" :[
+            "<CarouselIndicators>",
+            "\t${1}",
+            "</CarouselIndicators>"
+        ]
+    },
+    "carouselcaption" : {
+        "prefix" : "carousel:caption",
+        "body" :[
+            "<CarouselCaption>",
+            "\t${1}",
+            "</CarouselCaption>"
+        ]
+    }    
 }
