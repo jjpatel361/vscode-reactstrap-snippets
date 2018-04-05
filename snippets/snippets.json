@@ -424,5 +424,79 @@
             "\t${1}",
             "</CarouselCaption>"
         ]
+    },
+    "container" : {
+        "prefix" : "container",
+        "body" :[
+            "<Container>",
+            "\t${1}",
+            "</Container>"
+        ]
+    },
+    "row" : {
+        "prefix" : "row",
+        "body" :[
+            "<Row>",
+            "\t${1}",
+            "</Row>"
+        ]
+    },
+    "col" : {
+        "prefix" : "col",
+        "body" :[
+            "<Col ${1}>",
+            "\t${2}",
+            "</Col>"
+        ]
+    },
+    "col:md" : {
+        "prefix" : "col:md",
+        "body" :[
+            "<Col md=\"${1}\">",
+            "\t${2}",
+            "</Col>"
+        ]
+    },
+    "col:sm" : {
+        "prefix" : "col:sm",
+        "body" :[
+            "<Col sm=\"${1}\">",
+            "\t${2}",
+            "</Col>"
+        ]
+    },
+    "col:xs" : {
+        "prefix" : "col:xs",
+        "body" :[
+            "<Col xs=\"${1}\">",
+            "\t${2}",
+            "</Col>"
+        ]
+    },
+    "col:lg" : {
+        "prefix" : "col:lg",
+        "body" :[
+            "<Col lg=\"${1}\">",
+            "\t${2}",
+            "</Col>"
+        ]
+    },
+    "col:xl" : {
+        "prefix" : "col:xl",
+        "body" :[
+            "<Col xl=\"${1}\">",
+            "\t${2}",
+            "</Col>"
+        ]
+    },
+    "box" : {
+        "prefix" : "box",
+        "body" :[
+            "<Row>",
+            "\t<Col ${1}=\"${2}\">",
+            "\t\t${3}",
+            "\t</Col>",
+            "</Row>"
+        ]
     }    
 }
