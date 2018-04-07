@@ -1,8 +1,9 @@
 {
     "name": "reactstrap-snippets",
     "displayName": "reactstrap-snippets",
-    "description": "Snippets for using ReactStrap (React Wrapper for Bootstrap 4)",
-    "version": "0.0.1",
+    "description": "Snippets for using ReactStrap (React Bootstrap 4 Components)",
+    "version": "1.0.0",
+    "icon": "images/react.png",
     "publisher": "jjpatel361",
     "keywords": [
         "reactstrap",
@@ -20,26 +21,31 @@
             {
                 "language": "javascriptreact",
                 "path": "./snippets/snippets.json"
-              },
-              {
+            },
+            {
                 "language": "javascript",
                 "path": "./snippets/snippets.json"
-              },
-              {
+            },
+            {
                 "language": "typescript",
                 "path": "./snippets/snippets.json"
-              },
-              {
+            },
+            {
                 "language": "typescriptreact",
                 "path": "./snippets/snippets.json"
-              }
+            }
         ]
     },
     "dependencies": {
         "vsce": "^1.37.6"
     },
     "galleryBanner": {
-        "color": "#563d7c",
+        "color": "#000",
         "theme": "dark"
+    },
+    "homepage": "https://github.com/jjpatel361/vscode-reactstrap-snippets/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jjpatel361/vscode-reactstrap-snippets.git"
     }
 }
