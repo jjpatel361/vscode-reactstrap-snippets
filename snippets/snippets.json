@@ -498,5 +498,77 @@
             "\t</Col>",
             "</Row>"
         ]
-    }    
+    },
+    "table" : {
+        "prefix" : "table",
+        "body" :[
+            "<Table>",
+            "\t${1}",
+            "</Table>"
+        ]
+    },
+    "tabcontent" : {
+        "prefix" : "tabcontent",
+        "body" :[
+            "<TabContent>",
+            "\t${1}",
+            "</TabContent>"
+        ]
+    },
+    "tabpane" : {
+        "prefix" : "tabpane",
+        "body" :[
+            "<TabPane>",
+            "\t${1}",
+            "</TabPane>"
+        ]
+    },
+    "navitem" : {
+        "prefix" : "navitem",
+        "body" :[
+            "<NavItem>",
+            "\t${1}",
+            "</NavItem>"
+        ]
+    },
+    "nav" : {
+        "prefix" : "nav",
+        "body" :[
+            "<Nav>",
+            "\t${1}",
+            "</Nav>"
+        ]
+    },
+    "navlink" : {
+        "prefix" : "navlink",
+        "body" :[
+            "<NavLink>",
+            "\t${1}",
+            "</NavLink>"
+        ]
+    },
+    "navbar" : {
+        "prefix" : "navbar",
+        "body" :[
+            "<Navbar>",
+            "\t${1}",
+            "</Navbar>"
+        ]
+    },
+    "navbartoggler" : {
+        "prefix" : "navbartoggler",
+        "body" :[
+            "<NavbarToggler>",
+            "\t${1}",
+            "</NavbarToggler>"
+        ]
+    },
+    "navbarbrand" : {
+        "prefix" : "navbarbrand",
+        "body" :[
+            "<NavbarBrand>",
+            "\t${1}",
+            "</NavbarBrand>"
+        ]
+    }   
 }
