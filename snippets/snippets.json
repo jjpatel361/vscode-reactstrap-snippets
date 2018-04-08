@@ -493,8 +493,8 @@
         "prefix" : "box",
         "body" :[
             "<Row>",
-            "\t<Col ${1}=\"${2}\">",
-            "\t\t${3}",
+            "\t<Col>",
+            "\t\t${1}",
             "\t</Col>",
             "</Row>"
         ]
@@ -584,7 +584,7 @@
         "body" :[
             "<Progress>",
             "\t${1}",
-            "</Tooltip>"
+            "</Progress>"
         ]
     }   
 }
