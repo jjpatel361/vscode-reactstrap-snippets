@@ -570,5 +570,21 @@
             "\t${1}",
             "</NavbarBrand>"
         ]
+    },
+    "tooltip" : {
+        "prefix" : "tooltip",
+        "body" :[
+            "<Tooltip>",
+            "\t${1}",
+            "</Tooltip>"
+        ]
+    },
+    "progress" : {
+        "prefix" : "progress",
+        "body" :[
+            "<Progress>",
+            "\t${1}",
+            "</Tooltip>"
+        ]
     }   
 }
