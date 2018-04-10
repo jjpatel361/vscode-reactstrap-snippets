@@ -586,5 +586,42 @@
             "\t${1}",
             "</Progress>"
         ]
+    },
+    "popover" : {
+        "prefix" : "popover",
+        "body" :[
+            "<Popover>",
+            "\t${1}",
+            "</Popover>"
+        ]
+    },
+    "popoverheader" : {
+        "prefix" : "popoverheader",
+        "body" :[
+            "<PopoverHeader>",
+            "\t${1}",
+            "</PopoverHeader>"
+        ]
+    },
+    "popoverbody" : {
+        "prefix" : "popoverbody",
+        "body" :[
+            "<PopoverBody>",
+            "\t${1}",
+            "</PopoverBody>"
+        ]
+    },
+    "popoverbox" : {
+        "prefix" : "popoverbox",
+        "body" :[
+            "<Popover>",
+            "\t<PopoverHeader>",
+            "\t\t${1}",
+            "\t</PopoverHeader>",
+            "\t<PopoverBody>",
+            "\t\t${2}",
+            "\t</PopoverBody>",
+            "</Popover>"
+        ]
     }   
 }
