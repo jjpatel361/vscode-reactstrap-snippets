@@ -623,5 +623,29 @@
             "\t</PopoverBody>",
             "</Popover>"
         ]
-    }   
+    },
+    "pagination" : {
+        "prefix" : "page",
+        "body" :[
+            "<Pagination>",
+            "\t${1}",
+            "</Pagination>"
+        ]
+    },
+    "paginationitem" : {
+        "prefix" : "page:i",
+        "body" :[
+            "<PaginationItem>",
+            "\t${1}",
+            "</PaginationItem>"
+        ]
+    },
+    "paginationlink" : {
+        "prefix" : "page:l",
+        "body" :[
+            "<PaginationLink>",
+            "\t${1}",
+            "</PaginationLink>"
+        ]
+    }  
 }
