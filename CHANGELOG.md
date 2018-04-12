@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "reactstrap-snippets" extension will be documented in this file.
 
-## [2.0.0]
+## [2.0.0] - 2018-04-12
 
 - Added snippets for `ProgressBar`
 - Added snippets for `Tooltip`
@@ -9,5 +9,5 @@ All notable changes to the "reactstrap-snippets" extension will be documented in
 - Fixed `box` shortcut. No longer allows user to enter size `md` ,`lg` etc. Instead creates a base `Col` tag
 - Added snippets for `Pagination`
 
-## [1.0.0] - 2018-04-10
+## [1.0.0] - 2018-04-06
 - Initial release
