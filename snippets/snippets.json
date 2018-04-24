@@ -647,5 +647,57 @@
             "\t${1}",
             "</PaginationLink>"
         ]
-    }  
+    },
+    "fade" : {
+        "prefix" : "fade",
+        "body" :[
+            "<Fade in={${1}}>",
+            "\t${2}",
+            "</Fade>"
+        ]
+    },
+    "form" : {
+        "prefix" : "form",
+        "body" :[
+            "<Form>",
+            "\t${1}",
+            "</Form>"
+        ]
+    },
+    "formgroup" : {
+        "prefix" : "form:g",
+        "body" :[
+            "<FormGroup>",
+            "\t${1}",
+            "</FormGroup>"
+        ]
+    },
+    "input" : {
+        "prefix" : "input",
+        "body" :[
+            "<Input type=\"${1}\" id=\"${2}\" name=\"${2}\" placeholder=\"${3}\" />"
+        ]
+    },
+    "label" : {
+        "prefix" : "label",
+        "body" :[
+            "<Label for=\"${1}\" />"
+        ]
+    },
+    "inputbox" : {
+        "prefix" : "inputbox",
+        "body" :[
+            "<Label for=\"${1}\" />",
+            "<Input type=\"${2}\" id=\"${1}\" name=\"${1}\" placeholder=\"${3}\" />"
+        ]
+    },
+    "formbox" : {
+        "prefix" : "formbox",
+        "body" :[
+            "<FormGroup>",
+            "\t<Label for=\"${1}\" />",
+            "\t<Input type=\"${2}\" id=\"${1}\" name=\"${1}\" placeholder=\"${3}\" />",
+            "</FormGroup>"
+        ]
+    }    
 }
