@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "reactstrap-snippets" extension will be documented in this file.
 
-## [2.1.0] - 2018 04-30
+## [2.1.0] - 2018-04-30
 - Added snippets for `Fade`
 - Added snippets for `Form` (special snippet `formbox`)
 - Added snippet for `Input` and `Label` (special snippet `inputbox`)
