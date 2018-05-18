@@ -699,5 +699,58 @@
             "\t<Input type=\"${2}\" id=\"${1}\" name=\"${1}\" placeholder=\"${3}\" />",
             "</FormGroup>"
         ]
-    }    
+    },
+    "listgroup" : {
+        "prefix" : "listgroup",
+        "body" :[
+            "<ListGroup>",
+            "\t${1}",
+            "</ListGroup>"
+        ]
+    },
+    "listgroupitem" : {
+        "prefix" : "listgroupitem",
+        "body" :[
+            "<ListGroupItem>",
+            "\t${1}",
+            "</ListGroupItem>"
+        ]
+    },
+    "listgroupitemheading" : {
+        "prefix" : "ListGroupItemHeading",
+        "body" :[
+            "<ListGroupItemHeading>",
+            "\t${1}",
+            "</ListGroupItemHeading>"
+        ]
+    },
+    "listgroupitemtext" : {
+        "prefix" : "ListGroupItemText",
+        "body" :[
+            "<ListGroupItemText>",
+            "\t${1}",
+            "</ListGroupItemText>"
+        ]
+    },
+    "listbox" : {
+        "prefix" : "listbox",
+        "body" :[
+            "<ListGroup>",
+            "\t<ListGroupItem>",
+            "\t\t${1}",
+            "\t</ListGroupItem>",
+            "</ListGroup>"
+        ]
+    },
+    "listitembox" : {
+        "prefix" : "listitembox",
+        "body" :[
+            "<ListGroupItemHeading>",
+            "\t<ListGroupItemText>",
+            "\t\t${1}",
+            "\t</ListGroupItemText>",
+            "</ListGroupItemHeading>"
+        ]
+    }
+
 }
