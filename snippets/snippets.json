@@ -751,6 +751,15 @@
             "\t</ListGroupItemText>",
             "</ListGroupItemHeading>"
         ]
+    },
+    "jumbotron" : {
+        "prefix" : "jumbotron",
+        "body" :[
+            "<Jumbotron>",
+            "\t${1}",
+            "</Jumbotron>"
+        ]
     }
+    
 
 }
