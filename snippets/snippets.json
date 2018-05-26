@@ -759,7 +759,29 @@
             "\t${1}",
             "</Jumbotron>"
         ]
+    },
+    "inputgroup" : {
+        "prefix" : "inputgroup",
+        "body" :[
+            "<InputGroup>",
+            "\t${1}",
+            "</InputGroup>"
+        ]
+    },
+    "inputgroupaddon" : {
+        "prefix" : "inputgroupaddon",
+        "body" :[
+            "<InputGroupAddon addonType=\"${1}\">",
+            "\t${2}",
+            "</InputGroupAddon>"
+        ]
+    },
+    "inputgrouptext" : {
+        "prefix" : "inputgrouptext",
+        "body" :[
+            "<InputGroupText>",
+            "\t${1}",
+            "</InputGroupText>"
+        ]
     }
-    
-
 }
