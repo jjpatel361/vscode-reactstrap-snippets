@@ -27,6 +27,14 @@
                 "path": "./snippets/snippets.json"
             },
             {
+                "language": "jsx",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "jsx-attr",
+                "path": "./snippets/snippets.json"
+            },
+            {
                 "language": "typescript",
                 "path": "./snippets/snippets.json"
             },
