@@ -15,7 +15,7 @@ Type part of the React Component and select from suggestions. All React Componen
 Install from [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/items?itemName=jjpatel361.reactstrap-snippets)
 
 ## Note
-This is extension is still under active development and doesn't support all of the React Strap Components. The most common ones are already added.
+This is extension is not under active development and maybe out of sync with current version of reactstrap. The most common ones are already added.
 
 ## Contribution
 Issues and PR's are always welcomed. 
